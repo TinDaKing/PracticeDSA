@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="test solution">
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="done problem kkk">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -40,10 +41,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700290226035</updated>
     </task>
+    <task id="LOCAL-00001" summary="done problem kkk">
+      <created>1700335040861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700335040861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="test solution" />
+    <MESSAGE value="done problem kkk" />
+    <option name="LAST_COMMIT_MESSAGE" value="done problem kkk" />
   </component>
 </project>

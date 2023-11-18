@@ -9,7 +9,7 @@ public class Main {
         int A5[] = {1,2,3,4,5};
         int A6[] = {5,4,3,2,1};
         Solution solution = new Solution();
-        System.out.println("\nResult: " + solution.solution2(A6));
+        System.out.println("\nResult: " + solution.solution1(A3));
     }
 
 }
