@@ -21,7 +21,11 @@ public class Main {
         System.out.println("\nResult of question 2: " + question2.solution(S4));
 
         // question 3
-
+        int B[] = {51, 71, 17, 42};
+        int B1[] = {42, 33, 60};
+        int B2[] = {51, 32, 43};
+        Question3 question3 = new Question3();
+        System.out.println("\nResult of question 3: " + question3.solution(B1, B1.length));
     }
 
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="done problem 1 kkk">
-      <change afterPath="$PROJECT_DIR$/src/Question2.java" afterDir="false" />
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="problem 3 processing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tranh\OneDrive\Desktop\MASTER BACKEND\practice-dsa\src" />
@@ -68,13 +68,36 @@
       <option name="project" value="LOCAL" />
       <updated>1700335245812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done problem 1 kkk">
+      <created>1700358199340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700358199340</updated>
+    </task>
+    <task id="LOCAL-00004" summary="done problem 2 kkk">
+      <created>1700358211071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700358211071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="problem 3 processing">
+      <created>1700381120622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700381120622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test solution" />
     <MESSAGE value="done problem kkk" />
     <MESSAGE value="done problem 1 kkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="done problem 1 kkk" />
+    <MESSAGE value="done problem 2 kkk" />
+    <MESSAGE value="problem 3 processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 3 processing" />
   </component>
 </project>
