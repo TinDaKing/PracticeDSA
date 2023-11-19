@@ -6,6 +6,7 @@ public class Question3 {
         int result = -1;
         List<Integer> setOfElement = Arrays.asList(new Integer[82]);
         System.out.println(setOfElement);
+
         for (int i = 0; i < N; i++) {
             try {
                 int preElementInPair = setOfElement.get(hash(A[i]));

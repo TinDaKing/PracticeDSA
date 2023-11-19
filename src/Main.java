@@ -9,8 +9,8 @@ public class Main {
         int A4[] = {8, 8, 8, 8};
         int A5[] = {1, 2, 3, 4, 5};
         int A6[] = {5, 4, 3, 2, 1};
-        // Question1 question1 = new Question1();
-        // System.out.println("\nResult of question 1: " + question1.solution(A3));
+        Question1 question1 = new Question1();
+        System.out.println("\nResult of question 1: " + question1.solution(A3));
 
         // question 2
         String S = "babaa";
