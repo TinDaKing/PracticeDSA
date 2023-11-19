@@ -10,12 +10,11 @@ public class Question1 {
             return newA.get(0);
         }
         BigInteger result = BigInteger.valueOf(0);
-        int countContinuousStreak = 0;
-        // 3 continuous ascending numbers: 3
-        // -2 continuous descending numbers: -2
+
+        int countContinuousStreak = 0; // 3 continuous ascending numbers: 3
+        // 2 continuous descending numbers: -2
 
         int startStreakIndex = 0;
-        System.out.println(newA);
 
         for (int i = 1; i < newA.size(); i++) {
             if (newA.get(i) > newA.get(i - 1) && countContinuousStreak >= 0) {
@@ -32,11 +31,11 @@ public class Question1 {
                     result = result.subtract(BigInteger.valueOf(newA.get(i - 1)));
                     countContinuousStreak = 1;
 
-                } else if (i == newA.size() - 1 && countContinuousStreak > 0) {
+                } else if (i == newA.size()-1 && countContinuousStreak>0) {
                     result = result.add(BigInteger.valueOf(ascendingPart(newA.subList(startStreakIndex, i))));
                     countContinuousStreak = 0;
 
-                } else if (i == newA.size() - 1 && countContinuousStreak < 0) {
+                } else if (i == newA.size()-1 && countContinuousStreak<0) {
                     result = result.add(BigInteger.valueOf(descendingPart(newA.subList(startStreakIndex, i))));
                     result = result.subtract(BigInteger.valueOf(newA.get(i - 1)));
                     result = result.add(BigInteger.valueOf(newA.get(i)));
@@ -44,7 +43,6 @@ public class Question1 {
                 }
                 startStreakIndex = i - 1;
             }
-
         }
 
         if (countContinuousStreak > 0) {
@@ -52,11 +50,10 @@ public class Question1 {
         } else if (countContinuousStreak < 0) {
             result = result.add(BigInteger.valueOf(descendingPart(newA.subList(startStreakIndex, newA.size()))));
         }
-
         return result.mod(BigInteger.valueOf(1000000000)).intValue();
     }
 
-    public List<Integer> cleanArray(int[] A) { //eliminate the nearby same number
+    public List<Integer> cleanArray(int[] A) { //eliminate the nearby same numbers
         List<Integer> newA = new ArrayList<>();
         newA.add(A[0]);
         for (int i = 1; i < A.length; i++) {
