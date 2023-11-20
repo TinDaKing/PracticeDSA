@@ -1,3 +1,6 @@
+import week01.Question1;
+import week01.Question2;
+import week01.Question3;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +29,8 @@ public class Main {
         int B2[] = {51, 32, 43};
         Question3 question3 = new Question3();
         System.out.println("\nResult of question 3: " + question3.solution(B1, B1.length));
+
+        //
     }
 
 }
