@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="problem 1 ok" />
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="problem 1 ok">
+      <change afterPath="$PROJECT_DIR$/src/week02/MaxProfit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700493559871</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="problem 1 ok">
+      <created>1700493648503</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700493648503</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
