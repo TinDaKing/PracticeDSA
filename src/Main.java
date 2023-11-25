@@ -14,7 +14,10 @@ public class Main {
         // week 02 max profit
         int B[] = {23171,21011,21123,21366,21013,21367};
         int B1[] = {25,17,16,21,14,10,4,2,1};
-        System.out.println(MaxProfit.solution(B1));
+        System.out.println(MaxProfit.solution(B));
+
+        // week 03 balanced string
+
 
 
     }
