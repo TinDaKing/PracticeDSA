@@ -1,7 +1,7 @@
 package week02;
 
 public class AlternatingCoins {
-    public int solution(int[] A) {
+    public static int solution(int[] A) {
         int maxStreak = 1;
         int curStreak = 1;
         for (int i = 1; i < A.length; i++) {
