@@ -1,4 +1,5 @@
 import week02.AlternatingCoins;
+import week02.BalancedString;
 import week02.MaxProfit;
 
 public class Main {
@@ -17,6 +18,10 @@ public class Main {
         System.out.println(MaxProfit.solution(B));
 
         // week 03 balanced string
+        String C = "azABaabza";
+        String C1= "TacoCat";
+        String C2= "AcZCbaBz";
+        System.out.println(BalancedString.solution(C2));
 
 
 

@@ -1,12 +1,44 @@
 package week02;
 
-public class BalancedString {
-    public static int solution(String s){
+import java.util.HashSet;
+import java.util.Set;
 
-        for(int i=0; i <s.length();i++){
-            if(Character.isUpperCase(s.charAt(i))){
-                Character.getNumericValue()
+public class BalancedString {
+    public static int solution(String S) {
+        int shortestFragmentLength = -1;
+        for (int i = 0; i < S.length(); i++) {
+            for (int j = i + 1; j <= S.length(); j++) {
+                String substring = S.substring(i, j);
+                if (isBalanced(substring)) {
+                    shortestFragmentLength = Math.max(shortestFragmentLength, j - i);
+                }
             }
         }
+        return shortestFragmentLength;
     }
+
+    public static boolean isBalanced(String S) {
+        Set<Character> uppercaseLetters = new HashSet<>();
+        Set<Character> lowercaseLetters = new HashSet<>();
+        for (int i = 0; i < S.length(); i++) {
+            char c = S.charAt(i);
+            if (Character.isUpperCase(c)) {
+                uppercaseLetters.add(c);
+            } else {
+                lowercaseLetters.add(c);
+            }
+        }
+        for (char uppercaseLetter : uppercaseLetters) {
+            if (!lowercaseLetters.contains(Character.toLowerCase(uppercaseLetter))) {
+                return false;
+            }
+        }
+        for (char lowercaseLetter : lowercaseLetters) {
+            if (!uppercaseLetters.contains(Character.toUpperCase(lowercaseLetter))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
