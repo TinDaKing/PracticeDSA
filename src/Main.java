@@ -21,7 +21,7 @@ public class Main {
         String C = "azABaabza";
         String C1= "TacoCat";
         String C2= "AcZCbaBz";
-        System.out.println(BalancedString.solution(C2));
+        System.out.println(BalancedString.solution(C1));
 
 
 
