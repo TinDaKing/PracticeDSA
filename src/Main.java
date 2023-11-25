@@ -21,7 +21,8 @@ public class Main {
         String C = "azABaabza";
         String C1= "TacoCat";
         String C2= "AcZCbaBz";
-        System.out.println(BalancedString.solution(C1));
+        BalancedString balancedString = new BalancedString();
+        System.out.println(balancedString.solution(C1));
 
 
 

@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BalancedString {
-    public static int solution(String S) {
+    public int solution(String S) {
         int shortestFragmentLength = -1;
         for (int i = 0; i < S.length(); i++) {
             for (int j = i + 1; j <= S.length(); j++) {
@@ -17,7 +17,7 @@ public class BalancedString {
         return shortestFragmentLength;
     }
 
-    public static boolean isBalanced(String S) {
+    private boolean isBalanced(String S) {
         Set<Character> uppercaseLetters = new HashSet<>();
         Set<Character> lowercaseLetters = new HashSet<>();
         for (int i = 0; i < S.length(); i++) {
