@@ -20,9 +20,9 @@ public class Main {
         // week 03 balanced string
         String C = "azABaabza";
         String C1= "TacoCat";
-        String C2= "AcZCbaBz";
+        String C2= "AacZCbaBz";
         BalancedString balancedString = new BalancedString();
-        System.out.println(balancedString.solution(C1));
+        System.out.println(balancedString.solution(C));
 
 
 

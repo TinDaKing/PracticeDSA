@@ -10,7 +10,10 @@ public class BalancedString {
             for (int j = i + 1; j <= S.length(); j++) {
                 String substring = S.substring(i, j);
                 if (isBalanced(substring)) {
-                    shortestFragmentLength = Math.max(shortestFragmentLength, j - i);
+                    if (shortestFragmentLength == -1) {
+                        shortestFragmentLength = j - i;
+                    }
+                    shortestFragmentLength = Math.min(shortestFragmentLength, j - i);
                 }
             }
         }
