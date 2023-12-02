@@ -6,14 +6,12 @@ import java.util.Set;
 public class BalancedString {
     public int solution(String S) {
         int shortestFragmentLength = -1;
-        for (int i = 0; i < S.length(); i++) {
-            for (int j = i + 1; j <= S.length(); j++) {
-                String substring = S.substring(i, j);
+        for (int i = 2; i <= S.length(); i++) {
+            for (int j = 0; j <= S.length()-i; j++) {
+                String substring = S.substring(j, j+i);
                 if (isBalanced(substring)) {
-                    if (shortestFragmentLength == -1) {
-                        shortestFragmentLength = j - i;
-                    }
-                    shortestFragmentLength = Math.min(shortestFragmentLength, j - i);
+                    System.out.println("Sub string: "+substring);
+                    return substring.length();
                 }
             }
         }

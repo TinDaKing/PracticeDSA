@@ -1,11 +1,7 @@
-import week02.AlternatingCoins;
-import week02.BalancedString;
-import week02.MaxProfit;
+package week02;
 
-public class Main {
-    public static void main(String[] args) {
-
-        // week 2 alternating coins
+public class TestCaseWeek02 {
+    public void checkResult(){
         int A[] = {1,0,1,0,1,1};
         int A1[] ={1,1,0,1,1};
         int A2[] ={0,1,0};
@@ -23,9 +19,5 @@ public class Main {
         String C2= "AcZCbaBz";
         BalancedString balancedString = new BalancedString();
         System.out.println(balancedString.solution(C1));
-
-
-
     }
-
 }

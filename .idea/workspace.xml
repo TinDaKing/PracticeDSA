@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="misunderstand the question, fix solution">
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/week02/TestCaseWeek02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week02/BalancedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week02/BalancedString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700969107227</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="refactor">
+      <created>1700994246180</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700994246180</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,7 +228,6 @@
     <MESSAGE value="done problem 3" />
     <MESSAGE value="fix solution 1" />
     <MESSAGE value="finish problem 3" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="problem 1 ok" />
     <MESSAGE value="max profit calculating" />
     <MESSAGE value="max profit ok" />
@@ -227,6 +236,7 @@
     <MESSAGE value="string ok but complex quite high" />
     <MESSAGE value="seem ok" />
     <MESSAGE value="misunderstand the question, fix solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="misunderstand the question, fix solution" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
