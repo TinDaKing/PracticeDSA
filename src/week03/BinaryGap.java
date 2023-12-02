@@ -1,7 +1,16 @@
 package week03;
 
 public class BinaryGap {
-    public static int solution(int N) {
+    private static BinaryGap instance;
+    private BinaryGap(){};
+
+    public static BinaryGap getInstance() {
+        if (instance == null) {
+            instance = new BinaryGap();
+        }
+        return instance;
+    }
+    public int solution(int N) {
         System.out.println(N+" to binary: "+ Integer.toBinaryString(N));
 
         int maxBinaryGap = 0;

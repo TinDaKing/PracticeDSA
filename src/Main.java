@@ -14,16 +14,16 @@ public class Main {
         int N2=15;
         int N3=32;
 
-        System.out.println("Binary gap: " +BinaryGap.solution(N1));
+        System.out.println("Binary gap: " +BinaryGap.getInstance().solution(N1));
 
         // week 3 primes simples
-        System.out.println(PrimesSimple.getInstance().solution(11,19));
+        System.out.println("Prime amount: "+PrimesSimple.getInstance().solution(11,19));
 
         // week 3 missing integer
         int A[]={1,3,6,4,1,2};
         int A1[]={1,2,3};
         int A2[]={-1,-3};
-        System.out.println(MissingInteger.getInstance().solution(A));
+        System.out.println("Missing integer: "+MissingInteger.getInstance().solution(A));
 
     }
 

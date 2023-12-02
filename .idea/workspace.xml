@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="i was lost">
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="simple solution for MissingInteger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week03/MissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03/MissingInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week03/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03/BinaryGap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701513912413</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="simple solution for MissingInteger">
+      <created>1701520004482</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701520004482</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,6 +283,7 @@
     <MESSAGE value="binary gap refactor" />
     <MESSAGE value="prime simple ok" />
     <MESSAGE value="i was lost" />
-    <option name="LAST_COMMIT_MESSAGE" value="i was lost" />
+    <MESSAGE value="simple solution for MissingInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple solution for MissingInteger" />
   </component>
 </project>
