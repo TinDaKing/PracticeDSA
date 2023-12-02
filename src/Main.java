@@ -1,29 +1,20 @@
 import week02.AlternatingCoins;
 import week02.BalancedString;
 import week02.MaxProfit;
+import week03.BinaryGap;
 
 public class Main {
     public static void main(String[] args) {
 
-        // week 2 alternating coins
-        int A[] = {1,0,1,0,1,1};
-        int A1[] ={1,1,0,1,1};
-        int A2[] ={0,1,0};
-        int A3[] ={0,1,1,0};
-        System.out.println(AlternatingCoins.solution(A));
+        // week 3 binary gap
+        int N=9;
+        int N1=529;
+        int N2=15;
+        int N3=32;
 
-        // week 02 max profit
-        int B[] = {23171,21011,21123,21366,21013,21367};
-        int B1[] = {25,17,16,21,14,10,4,2,1};
-        System.out.println(MaxProfit.solution(B));
+        System.out.println(BinaryGap.solution(N1));
 
-        // week 03 balanced string
-        String C = "azABaabza";
-        String C1= "TacoCat";
-        String C2= "AcZCbaBz";
-        BalancedString balancedString = new BalancedString();
-        System.out.println(balancedString.solution(C1));
-
+        // week 3
 
 
     }
