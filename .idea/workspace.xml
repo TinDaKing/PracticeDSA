@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="change solution for BalancedString">
-      <change afterPath="$PROJECT_DIR$/src/week03/BinaryGap.java" afterDir="false" />
+    <list default="true" id="f185147a-fe15-4b48-a126-437bae1d086f" name="Changes" comment="binary gap ok">
+      <change afterPath="$PROJECT_DIR$/src/week03/PrimesSimple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week03/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03/BinaryGap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701488334591</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="binary gap ok">
+      <created>1701489248180</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701489248180</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +251,7 @@
     <MESSAGE value="misunderstand the question, fix solution" />
     <MESSAGE value="refactor" />
     <MESSAGE value="change solution for BalancedString" />
-    <option name="LAST_COMMIT_MESSAGE" value="change solution for BalancedString" />
+    <MESSAGE value="binary gap ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary gap ok" />
   </component>
 </project>
