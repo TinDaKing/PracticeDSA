@@ -16,8 +16,11 @@ public class MissingInteger {
     public int solution(int A[]){
         Set<Integer> numberInArray = new HashSet<>();
         int result = 0;
-        for(int a: A){
-
+        for(Integer a: A) {
+            numberInArray.add(a);
         }
+        while(!numberInArray.add(++result));
+
+        return result;
     }
 }

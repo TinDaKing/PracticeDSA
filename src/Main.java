@@ -2,6 +2,7 @@ import week02.AlternatingCoins;
 import week02.BalancedString;
 import week02.MaxProfit;
 import week03.BinaryGap;
+import week03.MissingInteger;
 import week03.PrimesSimple;
 
 public class Main {
@@ -15,8 +16,14 @@ public class Main {
 
         System.out.println("Binary gap: " +BinaryGap.solution(N1));
 
-        // week 3
+        // week 3 primes simples
         System.out.println(PrimesSimple.getInstance().solution(11,19));
+
+        // week 3 missing integer
+        int A[]={1,3,6,4,1,2};
+        int A1[]={1,2,3};
+        int A2[]={-1,-3};
+        System.out.println(MissingInteger.getInstance().solution(A));
 
     }
 
